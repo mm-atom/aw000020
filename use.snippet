@@ -3,7 +3,7 @@
 	 * ${0:变量注释}
 	 */
 	const r$CURRENT_SECONDS_UNIX = await(() => {
-		const p1 = $1;	// 参数注释
-		const p2 = $2;	// 参数注释
+		const p1 = '$1';	// fileinput结点,可以是`#id`,或是`.class`等
+		const p2 = $2;	// 文件id
 		return aw20(p1, p2);
 	})();
